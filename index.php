@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Voedingscentrum</title>
+  <title>IT-Lympics</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -62,26 +62,32 @@ li.dropdown {
 </style>
 </head>
 <body>
-<!--           Navigatiebalk              -->
+<!--               Navigatiebalk              -->
 <ul>
-  <li><a href="#home"><b>Home</b></a></li>
-  <li><a href="#news">About</a></li>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Informatie</a>
-    <div class="dropdown-content">
-      <a href="#">Gezondheid</a>
-      <a href="#">Dieet</a>
-      <a href="#">Milieu</a>
+  <li><a href=""><b>Home</b></a></li>
+  <li><a href="views/contact.php">Contact Us</a></li>
+  <li><a href="views/informatie.php">Informatie</a></li>
     </div>
   </li>
-</ul>
+</ul> 
+
+
 <!--                               Header               -->
 <div class="jumbotron text-center">
-<h1>&nbspIT-Lympics</h1>
-  <p>&nbsp&nbsp &nbsp  IT-lympics 
-  <i><b><h4>&nbsp &nbsp &nbsp Romario, Silvère, Robert en Amine</h4></b></i></p> 
+<p style="font-size:100px;">De IT-Lympics</p>
+  <p>&nbsp&nbsp &nbsp  Team CLI<i><b><h4>&nbsp &nbsp &nbsp Romario, Silvère, Robert en Amine</h4></b></i></p> 
+  <img src="images/windesheim-flevoland.png" width="25%">
 </div>
-<!--                    Columns            -->
+
+<!--                          Info onder header -->
+<center><h2><b>De IT-Lympics</b></h2></center>
+<p style="font-size:23px;">In de week van maandag 29 januari 2018 organiseert Windesheim Flevoland, samen met het Almeerse
+bedrijfsleven, de IT-Lympics 2018. De IT-Lympics is een sportevenement voor eerstejaars Windesheimstudenten HBO-ICT en Associate Degree Software Development.
+Teams van 4 personen zullen met elkaar de strijd aangaan in diverse ICT-gerelateerde sportieve evenementen.
+Ook strijden de teams om de prijs voor de beste app en de beste video van het evenement.</p><br>
+
+
+<!--                        Columns            -->
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
@@ -95,9 +101,13 @@ li.dropdown {
       <p style="font-size:25px;">Windesheim Flevoland<br>
         Hospitaaldreef 5 <br>
         1315 RC Almere<br>
-        Tel. 088 - 469 88 88</p>
+        Tel. 088 - 469 88 88</p>        
+        <a href="views\contact.php"><b><h3>Contact us</h3></b></a>
     </div>
   </div>
 </div>
 </body>
+<footer>
+  <p><b>&nbspIT-lympics:&nbsp©</b> Team CLI &nbsp </p>
+</footer>
 </html>
