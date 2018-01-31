@@ -77,22 +77,25 @@ li.dropdown {
 </ul>
 <!--                               Header               -->
 <div class="jumbotron text-center">
-<h1>&nbspVoedingscentrum</h1>
+<h1>&nbspIT-Lympics</h1>
   <p>&nbsp&nbsp &nbsp  IT-lympics 
   <i><b><h4>&nbsp &nbsp &nbsp Romario, Silvère, Robert en Amine</h4></b></i></p> 
 </div>
-<!--                    Columns regelen            -->
+<!--                    Columns            -->
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <h3><b>Locatie</b></h3>
+      <h2><b>Locatie</b></h2>
       <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.999942072759!2d5.2199753156190445!3d52.370421055056276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c616e13959b029%3A0xe04f21626e2f3f0e!2sWindesheim+Flevoland!5e0!3m2!1sen!2snl!4v1517398779934" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
     </div>
     <div class="col-sm-4">
     </div>
     <div class="col-sm-4">
-      <h3><b>About</b></h3>        
-      <p></p>
+      <h2><b>About</b></h2>        
+      <p style="font-size:25px;">Windesheim Flevoland<br>
+        Hospitaaldreef 5 <br>
+        1315 RC Almere<br>
+        Tel. 088 - 469 88 88</p>
     </div>
   </div>
 </div>
